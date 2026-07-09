@@ -8,7 +8,7 @@
 
 body  {
     /* O linear-gradient garante que o texto fique legível sobre a foto */
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('fundos.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('fundos.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
