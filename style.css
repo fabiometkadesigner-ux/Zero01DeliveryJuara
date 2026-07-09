@@ -20,11 +20,21 @@ body  {
 }
 }
 
-header { display: flex; justify-content: space-between; align-items: center; padding: 5rem 7%; }
-background: transparent;
-position: relative;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* O primeiro valor (3rem) é o topo/baixo, o segundo (5%) é as laterais */
+    padding: 3rem 5% 1rem 5%; 
+    background: transparent; /* Se quiser que a logo fique "flutuando" sobre a imagem de fundo */
+    position: relative;
+    z-index: 10;
+}
 
-.logo-box img { width: 150px; height: auto; }
+.logo-box img {
+    width: 140px; /* Aumentei levemente para ter mais impacto */
+    height: auto;
+}
 
 .hero { 
     display: flex; flex-direction: column; align-items: center; 
