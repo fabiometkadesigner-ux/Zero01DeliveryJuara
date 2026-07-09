@@ -8,7 +8,7 @@
 
 body  {
     /* O linear-gradient garante que o texto fique legível sobre a foto */
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('fundos.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('fundos.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -24,15 +24,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* O primeiro valor (3rem) é o topo/baixo, o segundo (5%) é as laterais */
     padding: 3rem 10% 1rem 10%; 
-    background: transparent; /* Se quiser que a logo fique "flutuando" sobre a imagem de fundo */
+    background: transparent; 
     position: relative;
     z-index: 10;
 }
 
 .logo-box img {
-    width: 140px; /* Aumentei levemente para ter mais impacto */
+    width: 35px; /* Aumentei levemente para ter mais impacto */
     height: auto;
 }
 
