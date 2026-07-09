@@ -25,7 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     /* O primeiro valor (3rem) é o topo/baixo, o segundo (5%) é as laterais */
-    padding: 3rem 5% 1rem 5%; 
+    padding: 3rem 10% 1rem 10%; 
     background: transparent; /* Se quiser que a logo fique "flutuando" sobre a imagem de fundo */
     position: relative;
     z-index: 10;
