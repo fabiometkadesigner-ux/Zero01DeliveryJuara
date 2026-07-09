@@ -6,9 +6,18 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
 
-body { background-color: var(--dark); color: var(--text); 
-    font-family: 'Inter', sans-serif;
-    -webkit-font-smoothing: antialiased; /* Deixa as letras mais nítidas */
+body  {
+    /* O linear-gradient garante que o texto fique legível sobre a foto */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('fundos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
 }
 
 header { display: flex; justify-content: space-between; align-items: center; padding: 2rem 5%; }
